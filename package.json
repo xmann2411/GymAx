@@ -1,0 +1,18 @@
+{
+  "name": "apiprojectnovo",
+  "version": "1.0.0",
+  "description": "Node.js CRUD example with SQL Server (MSSQL)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "karla",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "sequelize": "^6.37.3",
+    "tedious": "^18.3.0"
+  }
+}
