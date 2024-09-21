@@ -1,0 +1,140 @@
+/* Opći stilovi za cijelu stranicu */
+.admin-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #7ed957;
+  color: black;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Stilovi za naslov */
+.admin-page h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+/* Stilovi za pretragu */
+.search-input {
+  padding: 10px;
+  width: 300px;
+  height: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+/* Stilovi za tablicu */
+table {
+  width: auto;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table th,
+table td {
+  width: 200px;
+  padding: 5px 10px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+table thead {
+  background-color: #7ed957;
+  color: #333;
+}
+
+table tbody {
+  background-color: #7ed957;
+  /* height: 150px; */
+}
+
+/* Stilovi za gumbe */
+button {
+  padding: 10px 15px;
+  /* margin: 0; */
+  border-radius: 5px;
+  border: 1px solid #333;
+  cursor: pointer;
+  background-color: #ddd;
+  color: black;
+  transition: background-color 0.3s !important;
+}
+
+button:hover {
+  background-color: #ddd !important;
+}
+
+.btn-add-payment,
+.btn-edit,
+.btn-delete {
+  margin: 15px !important;
+}
+
+.btn-delete {
+  margin-left: -2px;
+}
+
+.addButton {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+/* Stilovi za modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 550px !important;
+  /* text-align: center; */
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+}
+
+.modal-content label {
+  /* display: block; */
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.modal-content input[type="text"],
+.modal-content input[type="date"],
+.modal-content input[type="file"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.modal-content input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+.modal-content button {
+  width: 45%;
+  margin: 5px;
+}
+
+/* Stil za sliku unutar modala */
+.userPicture {
+  display: block;
+  margin: 15px auto;
+  padding: 5px;
+}

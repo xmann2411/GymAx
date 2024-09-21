@@ -1,0 +1,113 @@
+.payment-page {
+  background-color: #7ed957; /* Matching the green background from the image */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: black !important;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+table {
+  background-color: #7ed957;
+  width: 50% !important;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 2px solid black;
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+}
+
+th {
+  font-weight: bold;
+}
+
+.is-subscription-valid {
+  font-size: 30px;
+}
+
+.add-payment-button {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: -30px;
+}
+
+.add-payment-button:hover,
+.back-to-admin-button:hover {
+  background-color: #d3d3d3 !important;
+}
+
+.back-to-admin-button {
+  background-color: white !important;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.modal {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  padding: 20px;
+  border-radius: 4px;
+  width: 400px;
+  position: relative;
+}
+
+.labela {
+  width: 350px;
+  margin-left: -70px;
+}
+
+.labela input {
+  margin-top: 10px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
